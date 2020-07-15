@@ -1,17 +1,7 @@
-# Simple 21 - Cards Web Game
+# blackjack
 
 ## The Game
-In this game of 21 the player will play against the computer. The goal of the game is to draw cards whose added value will be as close as possible or equal to 21. At the beginning the player will draw two cards. Upon receiving the two cards the player will look at them and decide to `HIT` or `STAY`. If the player picks `HIT` he will be dealt one more card. The player can `HIT` as many times as they wish. When the user choses to `STAY` the computer will draw three cards from the same deck and the added value of the players cards will be compared. Whoever is closest to 21 wins.
-
-## Instructions
-Create an website to play as simplified version of the 21 game. Use the [Deck Of Cards API](https://deckofcardsapi.com/) to manage a deck of cards. 
-
-Your App/Website should have:
-- A header (h1) that reads "Simple 21"
-- A div, with a start game button inside, that will be replaced with the card images and current score
-- Two buttons. One that displays `HIT` and the another `STAY`
-
-Feel free to include additional div's and elements if they make styling the application easier.
+In this game of blackjack the player will play against the computer. The goal of the game is to draw cards whose added value will be as close as possible or equal to 21. At the beginning the player will draw two cards. Upon receiving the two cards the player will look at them and decide to `HIT` or `STAY`. If the player picks `HIT` he will be dealt one more card. The player can `HIT` as many times as they wish. When the user choses to `STAY` the computer will draw three cards from the same deck and the added value of the players cards will be compared. Whoever is closest to 21 wins. Use the [Deck Of Cards API](https://deckofcardsapi.com/) to manage a deck of cards. 
 
 ### Value Of Cards
 - 2-9 = Face Value e.g. 5 of hearts = 5 points, 8 of diamonds = 8 points
@@ -37,11 +27,3 @@ Feel free to include additional div's and elements if they make styling the appl
 * If the computer's score, is greater than 21 then display "YOU WIN". If not, whichever score is closer to 21 wins. 
 * Displays who wins under the game title and remove the buttons.
 * Try to replicate the game's demo CSS as close as possible.
-
-**Remember to to read the documentation! Remember to see what response you are receiving.**
-
-## Demo
-[![Watch the video ](./assets/demo-video-mock.png)](https://www.youtube.com/watch?v=Pg5i0L73ncU)
-
-## Rubric
-To find the rubric that will be used to grade your work for this assignment, locate this assignment on you Canvas course.
