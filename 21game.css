@@ -1,0 +1,74 @@
+html{
+    background-image: url('https://thumbs.dreamstime.com/b/background-cards-green-felt-casino-table-copy-space-field-79637526.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100%;
+}
+
+h1{
+    color:white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#start{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#startBtn {
+    /* display: flex; */
+    text-align: center;
+    margin: 60px auto;
+    width: 15%;
+    height:25px;
+    border-radius: 15px;
+    font-size: 10px;
+    color: white;
+    background-color: green;
+    border: white solid 1px;
+}
+
+img{
+    width:200px;
+}
+
+#card-display, #computer-card-display{
+    margin-top: 10%;
+}
+
+#card-display h2 {
+  float: left;
+}
+
+#computer-card-display h2{
+    float: right;
+} 
+
+
+#footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#HIT{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#STAY{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#HIT, #STAY{
+    margin: 0 auto;
+    width: 20%;
+    height:25px;
+    border-radius: 15px;
+    margin-top: 40%;
+
+}
